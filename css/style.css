@@ -1,0 +1,16 @@
+* {
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Be Vietnam Pro',Helvetica,sans-serif;
+}
+
+.navbar{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.navbar nav .nav-elementos{
+    display:flex;
+}
