@@ -5,12 +5,29 @@
 }
 
 .navbar{
+    padding-top:5%;
+    padding-bottom:5%;
     width:100%;
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items:center;
 }
 
-.navbar nav .nav-elementos{
+.navbar nav{
     display:flex;
+    gap:28px;
+    font-weight: 500;
+    color:#242E52;
+    font-size:13px;
+}
+
+.navbar .btn-getstarted{
+    font-weight:500;
+    font-size:13.1806px;
+    color:#FFFFFF;
+    background-color:#F3603B;
+    box-shadow:0px 4px 7px rgba(0, 0, 0, 0.25);
+    padding: 12.5px 30.5px 12.5px 30.5px;
+    border-radius:50px;
 }
