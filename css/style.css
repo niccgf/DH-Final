@@ -193,7 +193,7 @@ main{
 }
 
 #opiniones .opiniones-usuarios .opinion .texto-p{
-    font-weight:500;
+    font-weight:400;
     font-size:16px;
     color:#B9B9C1;
     width:400px;
@@ -207,4 +207,103 @@ main{
     box-shadow:0px 4px 7px rgba(0, 0, 0, 0.25);
     padding: 12.5px 30.5px 12.5px 30.5px;
     border-radius:50px;
+}
+
+#bottom-side{
+    display:flex;
+    background-color:#F3613C;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#bottom-side .titulo-s{
+    font-weight:700;
+    font-size:40px;
+    color:#FFFFFF;
+    width:540px;
+}
+
+#bottom-side .btn-getstarted{
+    font-weight:500;
+    font-size:15px;
+    color:#F3603B;
+    background-color:#FFFFFF;
+    box-shadow:0px 4px 7px rgba(0, 0, 0, 0.25);
+    padding: 12.5px 30.5px 12.5px 30.5px;
+    border-radius:50px;
+    height:fit-content;
+    width:auto;
+}
+
+footer{
+    display:flex;
+    justify-content: space-around;
+    background-color:#1E1E26;
+    padding-top:50px;
+    padding-bottom:50px;
+    position:relative;
+}
+
+footer .logo-f{
+    display:flex;
+    flex-direction:column;
+    fill:white;
+    justify-content: space-around;
+}
+
+footer .logo-f svg g #logo-blanco-f{
+    fill:white;
+}
+
+footer .logo-f .socials-f{
+    color:white;
+    font-size:25px;
+    gap:14px;
+    display:flex;
+}
+
+footer .nav-f{
+    display:flex;
+}
+
+footer .nav-f .lista-nav-f{
+    color:#FFFFFF;
+    font-weight:300;
+    font-size:16px;
+}
+
+footer .nav-f .lista-nav-f ul{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+footer .form-f{
+    display:flex;
+    gap:10px;
+}
+
+footer .form-f form input{
+    padding:12.5px 30.5px 12.5px 10px;
+    border-radius:50px;
+    width:fit-content;
+}
+
+footer .form-f .btn-go-f{
+    padding:11.5px 23px 11.5px 23px;
+    background-color:#F3603B;
+    height:fit-content;
+    color:white;
+    border-radius:50px;
+}
+
+footer .copyright-f{
+    color:#8C8C94;
+    position:absolute;
+    font-weight:400;
+    font-size:14px;
+    top:75%;
+    right:10%;
 }
