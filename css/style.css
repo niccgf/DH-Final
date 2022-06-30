@@ -49,6 +49,11 @@ main{
 #navbar .btn-getstarted:hover{
     opacity:0.5;
 }
+
+#navbar .ico-menu{
+    display:none;
+}
+
 #bienvenida{
     display:flex;
     width:100%;
@@ -336,4 +341,145 @@ footer .copyright-f{
     font-size:14px;
     top:75%;
     right:10%;
+}
+
+@media (max-width:375px) {
+    #navbar{
+        padding-top:10%;
+        display:flex;
+        justify-content: space-around;
+        gap:10%;
+    }
+
+    #navbar nav, #navbar .btn-getstarted{
+        display:none;
+    }
+
+    #navbar .ico-menu{
+        display:flex;
+        font-size:20px;
+        color:#232851;
+    }
+
+    #bienvenida{
+        flex-direction:column-reverse;
+        gap:15px;
+    }
+
+    #bienvenida .mensaje-b{
+        align-items:center;
+        gap:20px;
+    }
+
+    #bienvenida .mensaje-b .titulo-b {
+        font-size:40px;
+        width:350px;
+        text-align:center;
+    }
+
+    #bienvenida .mensaje-b .texto-b{
+        text-align:center;
+    }
+
+    #bienvenida .ilustraciones-b img{
+        width:350px;
+    }
+
+    #nosotros {
+        flex-direction:column;
+        align-items:center;
+        gap:50px;
+    }
+
+    #nosotros .propuesta-n{
+        width:350px;
+    }
+
+    #nosotros .propuesta-n .titulo-propuesta{
+        font-size:25px;
+        text-align:center;
+    }
+    #nosotros .propuesta-n .desc-propuesta{
+        text-align:center;
+    }
+
+    #nosotros .items-nosotros{
+        width:350px;
+    }
+
+    #opiniones{
+        gap:70px;
+    }
+
+    #opiniones .titulo-opiniones{
+        text-align:center;
+    }    
+
+    #opiniones .titulo-opiniones .titulo-o{
+        font-size:25px;
+    }
+
+    #opiniones .opiniones-usuarios .opinion:nth-child(1), #opiniones .opiniones-usuarios .opinion:nth-child(3){
+        display:none;
+    }
+
+    #opiniones .opiniones-usuarios .opinion .texto-p{
+        text-align:center;
+        width:250px;
+    }
+
+    #bottom-side{
+        flex-direction:column;
+        gap:25px;
+    }
+
+    #bottom-side .titulo-s{
+        width:350px;
+        text-align:center;
+    }
+
+    footer{
+        flex-direction:column-reverse;
+        align-items:center;
+        gap:25px;
+    }
+    
+    footer .nav-f{
+        width:100%;
+        display:flex;
+        justify-content:space-evenly;
+    }
+
+    footer .nav-f .lista-nav-f ul{
+        padding-left:0px;
+    }
+
+    footer .nav-f .lista-nav-f ul li {
+        font-size:15px;
+        text-align:center;
+        width:100px;
+    }
+
+    footer .logo-f{
+        display:flex;
+        flex-direction:column-reverse;
+        gap:15px;
+        width:100%;
+        align-items:center;
+    }
+
+    footer .logo-f .socials-f{
+        width:100%;
+        gap:25px;
+        justify-content:center;
+    }
+
+    footer .logo-f .socials-f span{
+        font-size:30px;
+    }
+
+    footer .copyright-f{
+        top:94%;
+        right:5%;
+    }
 }
