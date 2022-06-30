@@ -282,6 +282,10 @@ footer .logo-f .socials-f{
     display:flex;
 }
 
+footer .logo-f .socials-f .facebook-f:hover,.youtube-f:hover,.twitter-f:hover,.pinterest-f:hover,.instagram-f:hover{
+    color:#F3603B;
+}
+
 footer .nav-f{
     display:flex;
 }
@@ -319,6 +323,10 @@ footer .form-f .btn-go-f{
     height:fit-content;
     color:white;
     border-radius:50px;
+}
+
+footer .form-f .btn-go-f:hover{
+    background-color:#f09984;
 }
 
 footer .copyright-f{
