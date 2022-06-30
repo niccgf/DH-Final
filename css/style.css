@@ -32,6 +32,9 @@ main{
     font-size:16px;
 }
 
+#navbar nav span:hover{
+    opacity:0.5;
+}
 
 #navbar .btn-getstarted{
     font-weight:500;
@@ -43,6 +46,9 @@ main{
     border-radius:50px;
 }
 
+#navbar .btn-getstarted:hover{
+    opacity:0.5;
+}
 #bienvenida{
     display:flex;
     width:100%;
@@ -82,6 +88,10 @@ main{
     padding: 12.5px 30.5px 12.5px 30.5px;
     border-radius:50px;
     width:fit-content;
+}
+
+#bienvenida .mensaje-b .btn-getstarted:hover{
+    opacity:0.5;
 }
 
 #nosotros{
@@ -209,6 +219,10 @@ main{
     border-radius:50px;
 }
 
+#opiniones .btn-getstarted:hover{
+    opacity:0.5;
+}
+
 #bottom-side{
     display:flex;
     background-color:#F3613C;
@@ -235,6 +249,10 @@ main{
     border-radius:50px;
     height:fit-content;
     width:auto;
+}
+
+#bottom-side .btn-getstarted:hover{
+    color:rgba(243,96,59,0.5);
 }
 
 footer{
@@ -278,6 +296,10 @@ footer .nav-f .lista-nav-f ul{
     display:flex;
     flex-direction:column;
     gap:12px;
+}
+
+footer .nav-f .lista-nav-f ul li:hover{
+    color:#F3603B;
 }
 
 footer .form-f{
