@@ -343,7 +343,7 @@ footer .copyright-f{
     right:10%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
     #navbar{
         padding-top:10%;
         display:flex;
@@ -441,7 +441,7 @@ footer .copyright-f{
     footer{
         flex-direction:column-reverse;
         align-items:center;
-        gap:25px;
+        gap:35px;
     }
     
     footer .nav-f{
@@ -463,7 +463,7 @@ footer .copyright-f{
     footer .logo-f{
         display:flex;
         flex-direction:column-reverse;
-        gap:15px;
+        gap:35px;
         width:100%;
         align-items:center;
     }
