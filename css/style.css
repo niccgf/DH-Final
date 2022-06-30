@@ -4,15 +4,15 @@
     font-family:'Be Vietnam Pro',Helvetica,sans-serif;
 }
 
-/* body{
-    margin-left:130px;
-    margin-right:130px;
-} */
+/* Agrego un gap entre todos los elementos del main */
+
 main{
     display:flex;
     flex-direction:column;
     gap:100px;
 }
+
+/* ******** NAVBAR ******** */
 
 #navbar{
     padding-top:2%;
@@ -53,6 +53,8 @@ main{
 #navbar .ico-menu{
     display:none;
 }
+
+/* ******** SECCIÓN BIENVENIDA ******** */
 
 #bienvenida{
     display:flex;
@@ -98,6 +100,8 @@ main{
 #bienvenida .mensaje-b .btn-getstarted:hover{
     opacity:0.5;
 }
+
+/* ******** SECCIÓN "NOSOTROS" ******** */
 
 #nosotros{
     display:flex;
@@ -165,6 +169,8 @@ main{
     color:#B3B2B7;
 }
 
+/* ******** SECCIÓN OPINIONES ******** */
+
 #opiniones{
     display:flex;
     flex-direction:column;
@@ -228,6 +234,8 @@ main{
     opacity:0.5;
 }
 
+/* ******** BLOQUE INFERIOR ******** */
+
 #bottom-side{
     display:flex;
     background-color:#F3613C;
@@ -259,6 +267,8 @@ main{
 #bottom-side .btn-getstarted:hover{
     color:rgba(243,96,59,0.5);
 }
+
+/* ******** FOOTER ******** */
 
 footer{
     display:flex;
@@ -342,6 +352,8 @@ footer .copyright-f{
     top:75%;
     right:10%;
 }
+
+/* ******** MEDIA QUERY - RESPONSIVE ******** */
 
 @media (max-width: 375px) {
     #navbar{
