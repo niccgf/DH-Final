@@ -4,6 +4,11 @@
     font-family:'Be Vietnam Pro',Helvetica,sans-serif;
 }
 
+a,a:link,a:visited,a:hover,a:active{
+    text-decoration:none;
+    color:inherit;
+}
+
 /* Agrego un gap entre todos los elementos del main */
 
 main{
@@ -358,7 +363,6 @@ footer .copyright-f{
 @media (max-width: 375px) {
     #navbar{
         padding-top:10%;
-        display:flex;
         justify-content: space-around;
         gap:10%;
     }
@@ -458,7 +462,6 @@ footer .copyright-f{
     
     footer .nav-f{
         width:100%;
-        display:flex;
         justify-content:space-evenly;
     }
 
@@ -473,7 +476,6 @@ footer .copyright-f{
     }
 
     footer .logo-f{
-        display:flex;
         flex-direction:column-reverse;
         gap:35px;
         width:100%;
