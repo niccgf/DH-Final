@@ -407,22 +407,26 @@ footer .copyright-f{
         gap:50px;
     }
 
-    #nosotros .propuesta-n{
-        width:350px;
-    }
-
-    #nosotros .propuesta-n .titulo-propuesta{
-        font-size:25px;
-        text-align:center;
-    }
-    #nosotros .propuesta-n .desc-propuesta{
-        text-align:center;
-    }
-
     #nosotros .items-nosotros{
-        width:350px;
+        width:100%;
     }
 
+    #nosotros .items-nosotros .item-n .btn-item{
+        position:absolute;
+        left:5%;
+    }
+
+    #nosotros .items-nosotros .item-n .texto-item .titulo-item{
+        padding-left:10%;
+        background-color:#f0b7a9;
+        margin-left:15%;
+    }
+
+    #nosotros .items-nosotros .item-n .texto-item .info-item{
+        padding-left:5%;
+        padding-right:5%;
+    }
+    
     #opiniones{
         gap:70px;
     }
