@@ -360,7 +360,7 @@ footer .copyright-f{
 
 /* ******** MEDIA QUERY - RESPONSIVE ******** */
 
-@media (max-width: 390px) {
+@media (max-width: 375px) {
     #navbar{
         padding-top:10%;
         justify-content: space-around;
